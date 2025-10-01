@@ -47,7 +47,7 @@ export default function Navbar() {
         <a href="#roadmap" className="hover:text-[#00d2ff] transition" onClick={() => setOpen(false)}>Roadmap</a>
         <a href="#utility" className="hover:text-[#00d2ff] transition" onClick={() => setOpen(false)}>Utility</a>
         <span className="my-2" />
-        <a href="https://t.me/yourtelegram" target="_blank" rel="noopener noreferrer" className="mt-2 flex items-center gap-2 hover:scale-110 transition-transform" aria-label="Telegram">
+        <a href="https://t.me/mysticker01" target="_blank" rel="noopener noreferrer" className="mt-2 flex items-center gap-2 hover:scale-110 transition-transform" aria-label="Telegram">
           <span>Telegram</span> {telegramSvg}
         </a>
       </div>
