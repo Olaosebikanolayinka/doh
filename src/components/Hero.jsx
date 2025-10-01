@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-[80vh] flex flex-col justify-center items-center md:items-end px-4 sm:px-8 md:px-20 py-16 md:py-0 overflow-hidden border-b-4 border-white"
+  className="relative min-h-screen flex flex-col justify-center items-center md:items-end px-4 sm:px-8 md:px-20 pt-32 md:pt-36 pb-16 md:py-0 overflow-hidden border-b-4 border-white"
       style={{
         background: `linear-gradient(120deg, #1e1e3f 60%, #ff2ecd 100%)`,
       }}
