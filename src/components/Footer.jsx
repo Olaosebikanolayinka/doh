@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mt-4">
       <a href="#" className="hover:text-[#00d2ff] text-base sm:text-lg">Buy $DOH</a>
       <a href="#" className="hover:text-[#00d2ff] text-base sm:text-lg">Whitepaper</a>
-      <a href="#" className="hover:text-[#00d2ff] text-base sm:text-lg">Telegram</a>
+      <a href="https://t.me/mysticker01" className="hover:text-[#00d2ff] text-base sm:text-lg">Telegram</a>
       <a href="#" className="hover:text-[#00d2ff] text-base sm:text-lg">Twitter</a>
       <a href="#" className="hover:text-[#00d2ff] text-base sm:text-lg">DAO</a>
     </div>

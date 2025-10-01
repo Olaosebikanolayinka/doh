@@ -23,7 +23,7 @@ export default function Navbar() {
           <a href="#roadmap" className="hover:text-[#00d2ff] transition">Roadmap</a>
           <a href="#utility" className="hover:text-[#00d2ff] transition">Utility</a>
           <span className="mx-4" />
-          <a href="https://t.me/mysticker012" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform" aria-label="Telegram">
+          <a href="https://t.me/mysticker01" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform" aria-label="Telegram">
             {telegramSvg}
           </a>
         </div>
