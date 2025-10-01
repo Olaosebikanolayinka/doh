@@ -11,19 +11,19 @@ export default function Utility() {
 
 
     return (
-    <section className="py-20 px-6 md:px-20" id='utility'>
-        <h2 className="text-4xl font-bold text-center mb-10 text-[#ff2ecd]">What Makes $DOH Special?</h2>
-        <div className="grid md:grid-cols-4 gap-6">
-        {features.map((item, i) => (
-        <div
-        key={i}
-        className="rounded-xl shadow p-6 text-center bg-[#1e1e3f] border border-[#00d2ff] hover:shadow-[0_0_15px_#00d2ff]"
-        >
-        <h3 className="font-bold mb-2 text-[#7b2fff]">{item.title}</h3>
-        <p className="text-gray-300">{item.desc}</p>
-        </div>
-        ))}
-        </div>
-     </section>
+        <section className="py-14 sm:py-16 md:py-20 px-4 sm:px-8 md:px-20" id="utility">
+            <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10 text-[#ff2ecd]">What Makes $DOH Special?</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                {features.map((item, i) => (
+                    <div
+                        key={i}
+                        className="rounded-xl shadow p-6 text-center bg-[#1e1e3f] border border-[#00d2ff] hover:shadow-[0_0_15px_#00d2ff]"
+                    >
+                        <h3 className="font-bold mb-2 text-[#7b2fff] text-lg md:text-xl">{item.title}</h3>
+                        <p className="text-gray-300 text-base md:text-lg">{item.desc}</p>
+                    </div>
+                ))}
+            </div>
+        </section>
  )
 }

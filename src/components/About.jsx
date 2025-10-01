@@ -5,11 +5,11 @@ import React from 'react'
 export default function About() {
   return (
     <section
-    id='about'
-      className="relative py-20 px-6 md:px-20 grid md:grid-cols-2 gap-10 items-center overflow-hidden"
+      id="about"
+      className="relative py-14 sm:py-16 md:py-20 px-4 sm:px-8 md:px-20 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 items-center overflow-hidden"
       style={{
         background: `linear-gradient(135deg, #fffbe6 60%, #ffe0f7 100%)`,
-        minHeight: '80vh',
+        minHeight: '70vh',
       }}
     >
       {/* Animated background shapes */}
@@ -25,15 +25,15 @@ export default function About() {
         className="absolute bottom-[-40px] right-[-40px] w-40 opacity-20 animate-bounce z-0"
         style={{ filter: 'blur(1px)' }}
       />
-      <div className="z-10">
-        <img src="/homerabout.png" alt="Homer Oracle" className="rounded-2xl shadow-lg border-4 border-[#ff2ecd] animate-float" />
+      <div className="z-10 flex justify-center md:justify-start">
+        <img src="/homerabout.png" alt="Homer Oracle" className="rounded-2xl shadow-lg border-4 border-[#ff2ecd] animate-float w-60 sm:w-72 md:w-80 max-w-full" />
       </div>
       <div className="z-10">
-        <h2 className="text-4xl font-bold mb-4 text-[#00d2ff] drop-shadow-lg animate-pop">About $DOH</h2>
-  <p className="mb-6 text-[#1e1e3f]">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-[#00d2ff] drop-shadow-lg animate-pop text-center md:text-left">About $DOH</h2>
+        <p className="mb-6 text-[#1e1e3f] text-base sm:text-lg text-center md:text-left">
           Homer $DOH combines meme culture, AI, and predictions into one hilarious but powerful Web3 ecosystem.
         </p>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="rounded-xl shadow p-4 text-center bg-white border-2 border-[#ff2ecd] hover:shadow-[0_0_25px_#ff2ecd] transition-all duration-300 animate-tilt">
             <h3 className="font-bold text-[#ff2ecd]">Ticker</h3>
             <p className="text-[#1e1e3f]">$DOH</p>

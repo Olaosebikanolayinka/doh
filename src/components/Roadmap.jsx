@@ -22,7 +22,7 @@ export default function Roadmap() {
 
 
     return (
-        <section className="relative py-20 px-6 md:px-20 bg-[#111124] overflow-hidden" id='roadmap'>
+    <section className="relative py-14 sm:py-16 md:py-20 px-4 sm:px-8 md:px-20 bg-[#111124] overflow-hidden" id="roadmap">
             {/* Animated Donuts Background */}
             {donuts.map((donut, i) => (
                 <img
@@ -37,12 +37,12 @@ export default function Roadmap() {
                     }}
                 />
             ))}
-            <h2 className="text-4xl font-bold text-center mb-10 text-[#00d2ff] relative z-10"> Roadmap</h2>
-            <div className="space-y-6 max-w-3xl mx-auto relative z-10">
+            <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10 text-[#00d2ff] relative z-10"> Roadmap</h2>
+            <div className="space-y-6 max-w-3xl mx-auto relative z-10 px-2">
                 {steps.map((step, i) => (
                     <motion.div
                         key={i}
-                        className="bg-[#1e1e3f] p-6 rounded-2xl border border-[#ff2ecd] hover:shadow-[0_0_15px_#ff2ecd]"
+                        className="bg-[#1e1e3f] p-4 sm:p-6 rounded-2xl border border-[#ff2ecd] hover:shadow-[0_0_15px_#ff2ecd]"
                         initial={{ opacity: 0, x: -50 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ delay: i * 0.2 }}
